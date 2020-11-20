@@ -3,7 +3,7 @@ We share the dataset collected between the months 12-2019 and 02-2020. It contai
 
 *This work was financed by the statutory funds of the Polish-Japanese Academy of Information Technology.*
 
-## Background
+## Annotation protocol
 Medical experts evaluated the credibility of sentences with the following set of labels and the corresponding instruction: 
 
 * CRED (credible) - a sentence is reliable; does not raise major objections; contains verifiable information from the medical domain; 
