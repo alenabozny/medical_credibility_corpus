@@ -45,6 +45,6 @@ We are grateful to all contributors of this dataset!
 ## License
 The Dataset is made available under a [Creative Commons CC-BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
-## Citing & Authors
+## Citing
 If you find this repository helpful, feel free to cite our publication 
 `@TBA`
