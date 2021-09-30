@@ -37,30 +37,31 @@ article_id | title | pub_date | access_date | url | keywords
 --- | --- | --- | --- | --- | ---
 123 | Psychiatric drugs do more harm than good, says expert, Society, The Guardian | 2015-05-12 | 2019-10-23 | https://www.theguardian.com/society/2015/may/12/psychiatric-drugs-more-harm-than-good-expert | drug, gøtzsche, psychiatric, dementia, antipsychotic
 
-Values are separated by semicolons.
-
+**Values are separated by semicolons.
+**
 ## Limitations of the dataset
 
 There are about 5% of duplicated sentences in the file **sentences.csv**. Duplicates' presence is due to the imperfection of the web crawler used for articles' retrieval as well as automatic sentence segmentation. There are two main reasons:
 1. Lists' items separation mechanism:
 
 Whenever encountered a list, such as:
-'''html
+```html
 <ul> Lorem ipsum. Dolor sit amet:
   <li> Item 1. </li>
   <li> Item 2. </li>
   <li> Item 3. </li>
 </ul>
-'''
+```
 the algorithm divided it to such set of sentences:
-'''
+```
 Lorem ipsum.
 Dolor sit amet: Item 1.
 Lorem ipsum.
 Dolor sit amet: Item 2.
 Lorem ipsum.
 Dolor sit amet: Item 3.
-'''
+```
+
 However, each duplicated sentence received separate label during the annotation process. Some of the duplicates received different labels due to inter-expert disagreements or due to different context window within which it was viewed. If you wish to download the cleaned dataset, please use **sentences_cleaned_duplicates.csv** instead **sentences.csv**. In this file duplicate sentences with repeated label and a 0 context window have an empty label field.
 
 2. There are also some sentences containing e.g. short headers (e.g. "Claim 4.") numbers or single punctuation marks. Those are easy to get rid of during data preprocessing and are always labelled as neutral.
