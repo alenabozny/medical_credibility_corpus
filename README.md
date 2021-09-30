@@ -87,10 +87,10 @@ If you find this repository helpful, feel free to cite our publication
 
 ```
 @Online{nabozny2020digging/online,
-  author      = {Nabożny A., Balcerzak B., Wierzbicki A, Morzy M.},
+  author      = {Nabożny A, Balcerzak B, Wierzbicki A, Morzy M, Chlabicz M},
   title       = {Digging for the truth: the case for active annotation in evaluating the credibility of online medical information},
   date        = {2020-11-26},
-  eprinttype  = {JMIR preprint},
+  eprinttype  = {JMIR Medical Informatics (forthcoming/in press)},
   eprint      = {preprint/26065}
   doi         = {10.2196/preprints.26065}
 }
