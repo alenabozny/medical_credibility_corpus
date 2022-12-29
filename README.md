@@ -86,12 +86,16 @@ The Dataset is made available under a [Creative Commons CC-BY-NC 4.0 license](ht
 If you find this repository helpful, feel free to cite our publication 
 
 ```
-@Online{nabozny2020digging/online,
-  author      = {Nabożny A, Balcerzak B, Wierzbicki A, Morzy M, Chlabicz M},
-  title       = {Digging for the truth: the case for active annotation in evaluating the credibility of online medical information},
-  date        = {2020-11-26},
-  eprinttype  = {JMIR Medical Informatics (forthcoming/in press)},
-  eprint      = {preprint/26065}
-  doi         = {10.2196/preprints.26065}
+@article{Nabozny2021ActiveLearning,
+    title = {{Active Annotation in Evaluating the Credibility of Web-Based Medical Information: Guidelines for Creating Training Data Sets for Machine Learning}},
+    year = {2021},
+    journal = {JMIR Medical Informatics},
+    author = {Nabo{\.{z}}ny, Aleksandra and Balcerzak, Bartłomiej and Wierzbicki, Adam and Morzy, Mikołaj and Chlabicz, Małgorzata},
+    number = {11},
+    month = {11},
+    pages = {e26065},
+    volume = {9},
+    doi = {10.2196/26065},
+    issn = {2291-9694}
 }
 ```
